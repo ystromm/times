@@ -1,11 +1,13 @@
 {
-  "name": "time",
+  "name": "times",
   "version": "1.0.0",
   "description": "The times they are a-changin",
   "repository": "github.com/ystromm/times",
   "main": "api.js",
-  "scripts": {},
-  "author": "ystromm@gmail.com",
+  "scripts": {
+    "deploy": "cross-env serverless client deploy --region eu-central-1"
+  },
+  "author": "martin.ystrom@gmail.com",
   "license": "Apache-2.0",
   "devDependencies": {
     "cross-env": "^3.1.4",

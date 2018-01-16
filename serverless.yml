@@ -1,0 +1,13 @@
+service: times
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+plugins:
+  - serverless-finch
+
+custom:
+  client:
+    bucketName: ystromm-times
+    distributionFolder: client/dist # (Optional) The location of your website. This defaults to client/dist
